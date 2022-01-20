@@ -1,0 +1,7 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.pacman.1dam</groupId>
+  <artifactId>com.pacman.1dam</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Pacman</name>
+</project>
