@@ -138,8 +138,7 @@ public class Funciones {
 		 			System.out.println("Entrada no válida");
 		 
 		 		}
-		 		// Si en la posición a la que va hay un fantasma, pone un carácter especial &
-		 		// para no restaurar el fantasma al moverse del nuevo sitio
+		 		
 		 		char loQueHay = (tablero[posPersonaje] == 'ᗣ' ? '&' : tablero[posPersonaje]);
 		 
 		 		tablero[posPersonaje] = personaje;
@@ -272,3 +271,4 @@ public class Funciones {
 
 			}
 }
+

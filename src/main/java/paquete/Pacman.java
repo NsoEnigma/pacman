@@ -5,7 +5,8 @@ import java.util.Scanner;
 
 public class Pacman {
 
-	public static void main(String[] args) {
+
+public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
 
@@ -56,6 +57,9 @@ public class Pacman {
 				monedas--;
 
 			}
+			
+			//powerUp
+			
 
 			// compruebo si pacman ha caido donde el fantasma
 
@@ -79,27 +83,7 @@ public class Pacman {
 				trasElFantasma2 = trasElFantasma;
 				trasElFantasma = 'ᗣ';
 			}
-			/**
-			 * if (posPacman == posFantasma2) {
-			 * 
-			 * break;
-			 * 
-			 * }
-			 **/
-
-			// Estrategia del fantasma , la contraria de donde se mueva pacman
-
-			// Al contrario que tu
-
-			/*
-			 * char dondeVoyFantasma='a';
-			 * 
-			 * if(dondeVoy=='a') {
-			 * 
-			 * dondeVoyFantasma='d';
-			 * 
-			 * }
-			 */
+	
 
 			// Aleatoriamente
 
@@ -146,4 +130,3 @@ public class Pacman {
 
 	}
 }
-
